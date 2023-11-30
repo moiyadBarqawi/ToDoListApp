@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="50dp"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="25dp"
+        android:shadowColor="#03A9F4"
+       android:textSize="18dp"
+        android:text="Create your to Do"
+        android:textColorHighlight="#03A9F4"
+        android:textColorHint="#03A9F4"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task"
+            tools:layout_editor_absoluteX="57dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+        <EditText
+            android:id="@+id/edittask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:text=""
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="205dp" />
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actor"
+            tools:layout_editor_absoluteX="57dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+        <EditText
+            android:id="@+id/editactor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="10dp"
+            android:text=""
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="205dp" />
+\
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_margin="10dp"
+            tools:layout_editor_absoluteX="57dp"
+            android:padding="10dp"
+            tools:layout_editor_absoluteY="152dp" />
+        <EditText
+            android:id="@+id/editTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:inputType="time" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/clearall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleat_All"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
